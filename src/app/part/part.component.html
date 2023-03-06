@@ -1,0 +1,7 @@
+<section class="part" [ngClass]="direction ? 'part--right' : 'part--left'">
+    <div class="part__content">
+        <h2>{{title}}</h2>
+        <p>{{content}}</p>
+    </div>
+    <img class="part__img" [src]="image" />
+</section>
