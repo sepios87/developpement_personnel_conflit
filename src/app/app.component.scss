@@ -20,4 +20,15 @@
     &__item {
         width: 100%;
     }
+
+    @media (max-width: 768px) {
+        .skills__list {
+            flex-direction: column;
+            row-gap: 32px;
+        }
+
+        .skills__item {
+            border: 0;
+        }
+    }
 }

@@ -15,6 +15,24 @@
         height: 100%;
         object-fit: cover;
     }
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+        height: auto;
+        padding: 48px 6%;
+
+        &__content {
+            width: 100%;
+            padding: 0;
+        }
+
+        &__img {
+            width: 100%;
+            height: 50vh;
+            object-fit: cover;
+            margin-top: 48px;
+        }
+    }
 }
 
 .text {
